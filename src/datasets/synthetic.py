@@ -10,8 +10,8 @@ class SyntheticMarineDataset:
         self.v  = rng.uniform([0.3,-0.2], [1.0,0.6], size=(n_targets,2))
         self.camera_sigma = np.array([0.8, 0.8])
         self.radar_sigma  = np.array([1.5, 1.5])
-        self.p_miss_camera = 0.05
-        self.p_miss_radar  = 0.07
+        self.p_miss_camera = 0.1
+        self.p_miss_radar  = 0.12
         self.rng = rng
 
     def ground_truth(self, t):

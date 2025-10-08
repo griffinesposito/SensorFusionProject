@@ -94,6 +94,8 @@ ehthumbs.db
 .env
 .env.*
 credentials/
-
 # OneDrive temp files
 ~$*
+
+# Results
+outputs/
